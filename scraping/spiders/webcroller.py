@@ -18,14 +18,16 @@ class Webcroller(CrawlSpider):
     # allowed_domains = ["spottertravel.com"]
     # allowed_domains = ["street.rs"]
     # allowed_domains = ["www.yasmina.com"]
-    allowed_domains = ["test.street.rs"]
+    # allowed_domains = ["test.street.rs"]
+    allowed_domains = ["localhost"]
 
     # start_urls = ['http://www.diwanee-serbia.rs']
     # start_urls = ['https://www.diwanee.com/']
     # start_urls = ['https://www.spottertravel.com/']
     # start_urls = ['https://www.street.rs']
     # start_urls = ['https://www.yasmina.com']
-    start_urls = ['http://test.street.rs']
+    # start_urls = ['http://test.street.rs']
+    start_urls = ['http://localhost:3004']
 
     # handle_httpstatus_list = [404]
     # handle_httpstatus_all = True
